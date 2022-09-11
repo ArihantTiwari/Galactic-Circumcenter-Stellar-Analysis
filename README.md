@@ -14,7 +14,7 @@ galaxy as a function of stellar variables. The two types of datasets used are:
 1. Beam Data: A (1o × 1o) square window centered at the RA and DEC coordinates of the
 Galactic Center is specified. All the stars, binary stars and the white dwarfs that fall into
 this window are extracted to form the Beam Data. This is because this data set contains all
-the mentioned sources in a beam with a cross-sectional area of (1o)2 from the Earth towards
+the mentioned sources in a beam with a cross-sectional area of (1 degree)2 from the Earth towards
 the Galactic Center.
 2. Sphere Data: A sphere of radius 300 parsecs, centered at the Galactic Center is specified
 and all the stars, binary stars and white dwarfs falling into this region are extracted. The
@@ -25,8 +25,9 @@ distance of the galactic center from the earth (approximated to be 8 kilo-parsec
 ## Files
 
 - `Galactic_Stellar_Analysys.ipynb`: Main code file containing the Data Query and Plotting.
-- `r.csv`: Sphere Dataframe
-- `r2.csv`: Beam Dataframe
+- `data`: Directory containing all the Dataframes for the Analysis
+> - `Shpere.csv`: Sphere Dataframe
+> - `Beam.csv`: Beam Dataframe
 - `Report.pdf`: Interpretation and Data analysis Report
 - 'images`: Directory containing all the Images used in tht Jupyter Notebooks
 
