@@ -28,7 +28,7 @@ distance of the galactic center from the earth (approximated to be 8 kilo-parsec
 - `r.csv`: Sphere Dataframe
 - `r2.csv`: Beam Dataframe
 - `Report.pdf`: Interpretation and Data analysis Report
-- 'content`: Directory containing all the Images used in tht Jupyter Notebooks
+- 'images`: Directory containing all the Images used in tht Jupyter Notebooks
 
 ## Conclusion
 
